@@ -1,0 +1,61 @@
+.vegan-cake-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #fde4e4;
+}
+
+
+.carousel-container {
+  width: 100%;
+  max-width: 700px; 
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.carousel-slide {
+  display: flex;
+  transition: transform 2s ease-in-out;
+  width: 300%; 
+}
+
+
+.slide {
+  position: relative;
+  min-width: 100%;
+}
+
+
+.slide img {
+  width: 650px; 
+  height: 650px;
+  display: block;
+  border-radius: 15px;
+}
+
+
+.buy-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff91a4;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #ff5b84;
+}

@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fffaf5;
+  color: #333;
+}
+
+.cart-section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.cart-section h1 {
+  text-align: center;
+  color: #d64055;
+  margin-bottom: 30px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff0f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item-info {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.item-total {
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.summary {
+  background: #fff5f8;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.summary p, .summary h3 {
+  margin: 10px 0;
+}
+
+.summary .free {
+  color: green;
+  font-weight: bold;
+}
+
+.gst-note {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.pay-button {
+  display: inline-block;
+  background: #e91e63;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.pay-button:hover {
+  background: #c2185b;
+}
+
+@media (max-width: 600px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .item-total {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}

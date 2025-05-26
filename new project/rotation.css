@@ -1,0 +1,51 @@
+/* body {
+  background: #f0fdf4;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #388e3c;
+  margin-bottom: 40px;
+}
+
+.circle-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 50%;
+  animation: spin 20s linear infinite;
+}
+
+.step {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.step img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+/* Positioning steps around the circle */
+/* .step1 { top: 0; left: 50%; transform: translate(-50%, 0); }
+.step2 { top: 25%; left: 90%; transform: translate(-50%, -50%); }
+.step3 { top: 70%; left: 75%; transform: translate(-50%, -50%); }
+.step4 { top: 75%; left: 25%; transform: translate(-50%, -50%); }
+.step5 { top: 25%; left: 10%; transform: translate(-50%, -50%); }
+
+/* Circle rotation animation */
+/* @keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+} */ 

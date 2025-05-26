@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RizzBakes - Fresh & Delicious Cakes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slideimages.css">
+ 
+
+</head>
+<body>
+  <script src="navigation.js"></script>
+    
+    <div class="offer-strip">
+        <marquee>RIZZBAKES  RIZZBAKES  </marquee>
+    </div>
+
+    
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li>
+  <a href="#" id="home-link">
+    <img src="cakes/home.png" alt="Home"> Home
+  </a>
+</li>
+
+            <li><a href="menu.html"><img src="cakes/menu.png" alt="Menu"> Menu</a></li>
+            <li><a href="about.html"><img src="cakes/group.png" alt="About"> About Us</a></li>
+            <li><a href="contact.html"><img src="cakes/phone-call.png" alt="Contact"> Contact</a></li>
+        </ul>
+    </nav>
+    <div id="contact-popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="document.getElementById('contact-popup').style.display='none'">&times;</span>
+    <h3>Contact Us 📞</h3>
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+    <p><strong>Email:</strong> contact@rizzbakes.com</p>
+  </div>
+</div>
+ <div class="offer-strip">
+        <marquee>🎉 Special Offer: Get 20% OFF on all cakes today! Use code: CAKE20 🎂 | Free delivery on orders above ₹499 🚚</marquee>
+    </div>
+
+
+
+    
+    <header class="header-bar">
+      <div class="logo-container">
+        <img src="cakes/ChatGPT Image May 23, 2025, 12_34_54 PM.png" alt="RizzBakes Logo" class="logo">
+    </div>
+    <div class="header-name">
+      <h1>RizzBakes</h1>
+    </div>
+      
+        
+        
+        <div class="cart">
+            <a href="cart.html"><img src="cakes/room-service.png" alt="Cart"> Cart</a>
+        </div>
+    </header>
+
+    
+<div class="search-bar">
+  <input type="text" id="search-input" placeholder="Search cakes, pastries, treats...">
+  <button type="submit" onclick="searchCakes()">🔍 Search</button>
+</div>
+<div id="search-results" class="cake-results"></div>
+<script src="search.js"></script>
+ <link rel="stylesheet" href="search-bar.css" />
+
+
+    
+    <section class="vegan-cake-section">
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <div class="slide">
+        <img src="cakes\vegan6.webp" alt="Vegan Cake 1">
+        
+      </div>
+      <div class="slide">
+        <img src="cakes\WhatsApp Image 2025-05-24 at 10.02.47_377c085f.jpg" alt="Vegan Cake 2">
+        
+      </div>
+      <div class="slide">
+        <img src="cakes\vegan4.jpeg" alt="Vegan Cake 3">
+        
+      </div>
+      
+    </div>
+  </div>
+  <script src="slideimage.js"></script>
+</section>
+
+        <div class="vegan-info">
+            <h2>100% Vegan Cake 🍰🌿</h2>
+            <div class="ingredient-box1">🌾 Organic Flour</div>
+            <div class="ingredient-box2">🥛 Almond Milk</div>
+            <div class="ingredient-box3">🥥 Coconut Oil</div>
+            <div class="ingredient-box4">🍌 Natural Sweeteners</div>
+        </div>
+        <footer class="vegan-disclaimer">
+          <h3>🍰 Disclaimer</h3>
+          <p>
+            At <strong>RizzBakes</strong>, every cake is baked with love and ethics in mind.  All our goodies are 
+            <strong>100% vegan</strong> – no dairy, no eggs, no honey, and absolutely no animal-derived ingredients. 🌿
+          </p>
+          <p>
+            We source our ingredients responsibly to support a healthier planet  and kinder choices.  
+            Our kitchen follows strict hygiene and allergen-safe practices. Please let us know in advance if you have nut, soy, or gluten allergies. 
+          </p>
+          <p>
+            🕊️ Eating vegan isn't just about food – it's about compassion, sustainability, and delicious change.  
+            With every bite, you’re supporting animals, the environment, and your own well-being.
+          </p>
+          <p>
+             For any questions, special requests, or ingredients list – feel free to reach out.  
+            We’re here to spread joy, one cruelty-free cake at a time! 🎂✨
+          </p>
+          <p>
+            Thank you for choosing <strong>RizzBakes</strong> – where sweetness meets soul. 🌸
+          </p>
+        </footer>
+        
+    </section>
+
+    
+    <section class="cake-gallery">
+        <h2>Our Delicious Cakes 🍰</h2>
+        <div class="gallery-grid">
+          <div class="cake-card new">
+            <div class="ribbon">New</div>
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/images.jpg" alt="Coco Cloud Bliss">
+            <h3>Coco Cloud Bliss</h3>
+            <p>₹499</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card">
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download.jpg" alt="Red Velvet">
+            <h3>Red Velvet</h3>
+            <p>₹549</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card new">
+            <div class="ribbon">New</div>
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download2.jpg" alt="Fruit Fantasy">
+            <h3>Fruit Fantasy</h3>
+            <p>₹579</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card">
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download 6.jpg" alt="Minty Calm Crunch">
+            <h3>Minty Calm Crunch</h3>
+            <p>₹529</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card">
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download7.jpg" alt="Butterscotch Magic">
+            <h3>Butterscotch Magic</h3>
+            <p>₹489</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card new">
+            <div class="ribbon">New</div>
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download 8.jpg" alt="Blueberry Lemon Glow">
+            <h3>Blueberry Lemon Glow</h3>
+            <p>₹569</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card">
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download 11.jpg" alt="Tropic Whirl">
+            <h3>Tropic Whirl</h3>
+            <p>₹569</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        
+          <div class="cake-card">
+            <button class="wishlist-btn">❤️</button>
+            <img src="cakes/download 4.jpg" alt="Strawberry Mylk Rush">
+            <h3>Strawberry Mylk Rush</h3>
+            <p>₹599</p>
+            <a href="#" class="cart-button">Add to Cart</a>
+          </div>
+        </div>     
+            
+        </div>
+    </section>
+    <div class="more-cakes">
+        <h2>Explore More Cakes 🍰</h2>
+        <button onclick="window.location.href='menu.html'" class="view-menu-button">View Full Menu</button>
+
+        </div>  
+        <div class="testimonials-section">
+          <h2 class="testimonial-heading">What Our Customers Say 💬</h2>
+        
+          <div class="testimonial-card">
+            <p class="testimonial-text">“The vegan chocolate cake was heavenly! So moist and rich, I couldn't believe it was vegan!”</p>
+            <div class="testimonial-author">– Priya S.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        
+          <div class="testimonial-card">
+            <p class="testimonial-text">“RizzBakes has the best vegan options in town. Their cakes are not just good for the planet, but also delicious!”</p>
+            <div class="testimonial-author">– Rahul M.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        
+          <div class="testimonial-card">
+            <p class="testimonial-text">“Absolutely adorable presentation and the flavors are mind-blowing. Highly recommend the Tropic Whirl!”</p>
+            <div class="testimonial-author">– Meena G.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        
+          <div class="testimonial-card">
+            <p class="testimonial-text">“Ordered for my sister’s birthday – everyone loved the Butterscotch Magic! Will order again 💕”</p>
+            <div class="testimonial-author">– Karan V.</div>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+          </div>
+        </div>
+        
+    </div>
+
+    
+    <section class="vegan-section">
+        <div class="vegan-row">
+            <div class="vegan-image">
+                <img src="cakes/tree_PNG2517.png" alt="Eco Friendly">
+            </div>
+            <div class="vegan-text">
+                <h2>Why Go Vegan? 🌱</h2>
+                <ul>
+                    <li>💚 Better for your heart – zero cholesterol</li>
+                    <li>🌎 Protects the planet – eco-lifestyle</li>
+                    <li>🧠 Boosts your mood – natural & clean</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="vegan-row reverse">
+            <div class="vegan-text">
+                <h2>Real Life Facts </h2>
+                <ul>
+                    <li>🌱 Saves 80L of water per slice</li>
+                    <li>🐄 Cruelty-free – no animal harm</li>
+                    <li>⚡ Energizing and digestion-friendly</li>
+                </ul>
+            </div>
+            <div class="vegan-image">
+                <img src="cakes/nutrition-facts-label.png" alt="Nutrition Facts">
+            </div>
+        </div>
+
+        <div class="more-info">
+    <h2 class="vegan-heading">Make Your Own Cake 🍰🌱</h2>
+    <a href="#" class="vegan-button" id="discover-btn">Discover the Magic</a>
+  </div>
+
+  
+  <div class="cake-modal" id="cakeModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <h3>🎂 Build Your Own Cake</h3>
+      <form id="cakeForm">
+        <label>Choose Base:</label>
+        <select id="base">
+          <option>Vanilla</option>
+          <option>Chocolate</option>
+          <option>Red Velvet</option>
+        </select><br>
+
+        <label>Choose Frosting:</label>
+        <select id="frosting">
+          <option>Buttercream</option>
+          <option>Chocolate Ganache</option>
+          <option>Strawberry</option>
+        </select><br>
+
+        <label>Choose Toppings:</label>
+        <select id="topping">
+          <option>Choco Chips</option>
+          <option>Fruits</option>
+          <option>Sprinkles</option>
+        </select><br>
+
+        <label>Add a Note for the Chef:</label>
+        <textarea id="note" placeholder="Anything special? (e.g. Eggless, Happy B'day Priya 🎉)"></textarea>
+
+        <button type="submit" class="add-btn">Add to Cart</button>
+      </form>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+
+        <section class="blog-section">
+          <h2 class="blog-heading">🍰 Fresh From the Oven – Our Latest Blog Posts</h2>
+          <div class="blog-container">
+            <div class="blog-card">
+              <h3>Top 10 Must-Try Cakes for Every Occasion 🎉</h3>
+              <p>From birthdays to anniversaries, these cakes are a crowd favorite. You won’t believe #3!</p>
+            </div>
+            <div class="blog-card">
+              <h3>Why Vegan Cakes Are the Future 🌱</h3>
+              <p>Vegan doesn’t mean boring! Discover how our plant-based bakes are winning hearts (and taste buds).</p>
+            </div>
+            <div class="blog-card">
+              <h3>Behind the Scenes: How We Bake Happiness 🍪</h3>
+              <p>Ever wondered what goes into each RizzBakes treat? Peek into our magical kitchen!</p>
+            </div>
+            <div class="blog-card">
+              <h3>Celebrating Sweet Moments With You 💖</h3>
+              <p>Stories from our happy customers that make our ovens (and hearts) warm!</p>
+            </div>
+          </div>
+        
+          <div class="blog-icons">
+            <div class="blog-icon-item">
+              <img src="cakes\on-time-.png" alt="On Time Delivery">
+              <p>On Time Delivery</p>
+            </div>
+            <div class="blog-icon-item">
+              <img src="cakes\fresh.png" alt="Fresh & Hygienic">
+              <p>Fresh & Hygienic</p>
+            </div>
+            <div class="blog-icon-item">
+              <img src="cakes\png-clipart-food-safety-and-standards-authority-of-india-logo-india-food-text-thumbnail.png" alt="FSSAI Certified">
+              <p>FSSAI Certified</p>
+            </div>
+          </div>
+          <footer class="rizz-footer">
+            <div class="footer-top">
+          
+              <img src="cakes\ChatGPT Image May 23, 2025, 12_34_54 PM.png" alt="RizzBakes Logo" class="footer-logo">
+          
+              <div class="footer-inline-sections">
+                <div>
+                  <h4>About</h4>
+                  <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Speciality Cakes</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">CSR</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Policy</h4>
+                  <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Refunds</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">FAQs</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Contact</h4>
+                  <p>📞 +91 9999-999999</p>
+                  <p>📧 contact@rizzbakes.in</p>
+                  <div class="social-icons">
+                    <img src="cakes\youtube.png" alt="YouTube">
+                    <img src="cakes\instagram-logo.png" alt="Instagram">
+                    <img src="cakes\facebook-logo.png" alt="Facebook">
+                  </div>
+                </div>
+              </div>
+          
+              <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <input type="email" placeholder="Enter your email..." class="newsletter-input">
+                <button class="newsletter-btn">Sign Up</button>
+              </div>
+            </div>
+          
+            <div class="store-locations">
+              <strong>Our Stores:</strong> Agra | Delhi | Mumbai | Pune | Jaipur | Lucknow | Varanasi | Bhopal | Patna | Dehradun | More...
+            </div>
+          
+            
+          </footer>
+          
+                
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 RizzBakes. All rights reserved.</p>
+    </footer>
+
+ 
+<div id="chatbot">
+  <div id="chat-header">RizzBot 💬</div>
+  <div id="chat-body">
+    <div class="bot-msg">Hi there! Ask me anything about our delicious vegan cakes 🌱🍰</div>
+  </div>
+  <input type="text" id="chat-input" placeholder="Type your question..." />
+  <button id="chat-send">Send</button>
+</div>
+
+
+<div id="chat-toggle">💬</div>
+<div id="chatbox">
+    <div id="chatlog"></div>
+    <input type="text" id="userInput" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+
+<!-- <link rel="stylesheet" href="chatbot.css"> -->
+<script src="nav.js"></script>
+
+<script src="chatbot.js"></script>
+
+<script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 0) {
+      navbar.classList.add("transparent");
+    } else {
+      navbar.classList.remove("transparent");
+    }
+  });
+</script>
+
+
+
+    
+
+
+    
+    
+</body>
+</html>

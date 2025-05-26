@@ -1,0 +1,118 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff0f5;
+  color: #333;
+}
+
+/* Section: Discover */
+.more-info {
+  text-align: center;
+  margin-top: 60px;
+  background: #ffe4e1;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(255, 182, 193, 0.4);
+}
+
+.vegan-heading {
+  font-size: 28px;
+  color: #e75480;
+  margin-bottom: 15px;
+}
+
+.vegan-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #ff69b4;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.vegan-button:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
+/* Modal Styles */
+.cake-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fffafc;
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-content h3 {
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #d63384;
+}
+
+.modal-content select,
+.modal-content textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+  max-height: 100px;
+}
+
+.add-btn {
+  margin-top: 20px;
+  background: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background: #ff1493;
+  transform: scale(1.05);
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #888;
+}
